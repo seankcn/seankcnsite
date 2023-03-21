@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <title>seankcn</title>
+  <style>
+    /* Add custom styles here */
+    body {
+      background-color: #f5f5f5;
+    }
+    .container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #007bff;
+    }
+    .image {
+      width: 20px;
+      height: 20px;
+      transition-duration:0.8s;
+    }
+    .image:hover {
+      width: 30px;
+      height: 30px;
+      transition-duration:0.5s;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar-wrapper">
+    <div class="container-fluid">
+      <!-- Include the navbar --><!--Navigation bar-->
+      <div id="nav-placeholder"></div>
+      <script>
+      $(function(){
+        $("#nav-placeholder").load("navbar.html");
+      });
+      </script>
+<!--end of Navigation bar-->
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>seankcn</h1>
+    <p class="lead">Everything</p>
+    <ul>
+      <li><a href="https://www.instagram.com/" target="_blank"><img src="ig.png" alt="" class="image"></a></li>
+      <li><a href="https://twitter.com/" target="_blank"><img src="tw.png" alt="" class="image"></a></li>
+      <li><a href="https://letterboxd.com/" target="_blank"><img src="lb.png" alt="" class="image"></a></li>
+      <li><a href="https://www.youtube.com/" target="_blank"><img src="yt.png" alt="" class="image"></a></li>
+      <li><a href="https://steamcommunity.com/id/" target="_blank"><img src="st.png" alt="" class="image"></a></li>
+      <li><a href="https://open.spotify.com/user/" target="_blank"><img src="sp.png" alt="" class="image"></a></li>
+      <li><a href="https://substack.com/" target="_blank"><img src="ss.png" alt="" class="image"></a></li>
+      <li><a href="https://github.com/" target="_blank"><img src="gh.png" alt="" class="image"></a></li>
+    </ul>
+  </div>
+</body>
+</html>
